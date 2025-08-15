@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Sayfa Başlığı -->
+<title>Armin Hudobná Skupina | Slovenská Hudobná Skupina na Vašu Oslavu</title>
+
+<!-- Açıklama -->
+<meta name="description" content="Armin Hudobná Skupina - profesionálna slovenská hudobná skupina pre svadby, oslavy a firemné podujatia. Zarezervujte si nás ešte dnes!">
+
+<!-- Anahtar Kelimeler -->
+<meta name="keywords" content="hudobná skupina, Armin, slovenská hudba, živá hudba, svadobná kapela, skupina na oslavu, hudba na svadbu, slovenská kapela, hudba Slovensko">
+
+<!-- Yazar -->
+<meta name="author" content="Armin Hudobná Skupina">
+
+<!-- Dil -->
+<meta http-equiv="Content-Language" content="sk">
+
+<!-- Mobil Uyumluluk -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Sosyal Medya Paylaşımı İçin Open Graph Etiketleri -->
+<meta property="og:title" content="Armin Hudobná Skupina | Živá hudba pre vaše podujatie">
+<meta property="og:description" content="Profesionálna slovenská hudobná skupina na svadby a oslavy. Rezervujte nás pre nezabudnuteľný večer.">
+<meta property="og:image" content="https://siteniz.com/og-image.jpg"> <!-- Web sitenize ait uygun bir görsel URL'si -->
+<meta property="og:url" content="https://siteniz.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card (isteğe bağlı) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Armin Hudobná Skupina | Slovenská Hudba na Oslavu">
+<meta name="twitter:description" content="Svadby, oslavy a viac – živá hudba od Armin Hudobná Skupina.">
+<meta name="twitter:image" content="https://siteniz.com/twitter-image.jpg">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--navbar start-->
+<header class="header">
+
+      <a href="#" class="logo">
+        <img src="images/taniy.jpg">
+      </a>  
+     
+      <nav class="navbar">
+        <a href="#domov"> DOMOV</a>
+          <a href="#onas"> O NÁS</a> 
+        <a href="#menu"> MENU</a>
+       <!-- <a href="#products"> PRODUCTS</a>-->
+        <a href="#recenzie"> RECENZIE</a>
+        <a href="#kontakt"> KONTAKT</a>
+        <a href="#blogy"> BLOGY</a>
+        <a href="#galeria"> GALÉRIA</a>
+        
+
+      </nav>
+
+      <div class="icons">
+
+        <div class="fas fa-search" id="search-btn"></div>
+         
+          <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Hľadať tu.....">
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+<div class="cart-items-container searchable">
+  <div class="cart-item">
+    <span class="fas fa-times"> </span>
+      <img src="images/foto2.jpg" alt="">
+      <div class="content">
+        <h3>cart item 01</h3>
+        <div class="price">100 dolar</div>
+      </div>
+      
+   
+  </div>
+</div>
+<script>
+  document.getElementById('search-box').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const items = document.querySelectorAll('.searchable');
+    let firstMatch = null;
+
+    items.forEach(function (item) {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(query)) {
+        item.style.display = '';
+        if (!firstMatch) firstMatch = item;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    // Eğer eşleşen ilk öğe varsa, ona scroll yap
+    if (firstMatch) {
+      firstMatch.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+</script>
+
+
+</header>
+
+<!-- home start-->
+
+<section class="home" id="domov">
+
+  <div class="content searchable">
+    <h1>ARMİN HUDOBNA SKUPINA</h1>
+    <P> Svadba , kultur music a pre vsetky contact </P>
+     <a href="https://wa.me/+421910994374" target="_blank"  class="btn"> QUİK REZERVATİON </a>
+
+  </div>
+</section>
+
+
+<section class="about  searchable "  id="onas">
+    <h1 class="heading" > <span> O </span> NÁS</h1>
+
+    <div class="box-container searchable">
+
+        <div class="box">
+
+            <div class="image ">
+
+                <img src="images/rudolf.kemen.jpg" alt="">    
+            </div>
+            <div class="content searchable">
+                <a href="#" class="title"> RUDOLF KEMEN</a>
+                <span>  26 jun 2000 / KLAVÍR-ORG  </span>
+                <p> *Policajný dôstojník RUDOLF KEMEN sa s hudbou zoznámil už v mladom veku vďaka klarinetu, ktorý mu kúpil otec. Jeho vášeň a talent pre hudbu boli zjavné už od detstva. Vedel hrať na klarinet, organ, klavír a akordeón, ale vo veku 18 rokov bol nútený s hudbou prestať. Jeho vášeň a oddanosť hudbe sa znovu rozhoreli o niekoľko rokov neskôr po odchode z policajného zboru a pridal sa k tímu Armin. Mnohými svojimi piesňami prispel k slovenskej kultúre.</p>
+                <a href="https://wa.me/+421910994374" target="_blank"  id="btnn"> more iformation</a>
+            </div>
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+
+                <img src="images/maros.jpg.JPG" alt=""> 
+            </div>
+            <div class="content   searchable">
+                <a href="#" class="title"> MAROŞ ARMİN MARTİNEC</a>
+                <span>  03 agust 2024 / BATERİST-BUBENÍK </span>
+                <p>*MAROŞ ARMİN MARTİNEC; zakladateľ kapely ARMIN, Maroş, začal svoju hudobnú kariéru hraním na bicie v mladom veku a získal profesionálne skúsenosti na pódiu. Maroşovým skutočným povolaním je tesár, ale je aj veľmi skúseným bubeníkom. Vystupoval na rôznych pódiách na Slovensku. S vlastnou kapelou, ktorú založil v roku 1988, vystupoval na rôznych festivaloch a dosiahol značný úspech. Maroş, známy svojím dynamickým rytmom a energiou na pódiu, sa v súčasnosti zameriava na sólové projekty a hudobné vzdelávanie. </p>
+
+          <a href="https://wa.me/+421948221901" target="_blank"  id="btnn"> more iformation </a>
+            </div>
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+
+                 <img src="images/gabika.jpg" alt=""> 
+            </div>
+            <div class="content searchable">
+                <a href="#" class="title"> GABRİELA SLOVÁKOVÁ</a>
+                <span>  21 may 1988 / SÓLISTA </span>
+                <p>*GABRİELA SLOVÁKOVÁ; Po absolvovaní Štátneho konzervatória v Nitre pracovala mnoho rokov ako učiteľka hudby. Učila na mnohých školách, vštepovala svojim študentom lásku k hudbe a podporovala ich výkonnosť a disciplínu. Gabriela však túžila ďalej rozvíjať svojho umeleckého ducha na javisku a v roku 2001 sa obrátila na profesionálny spev. Preslávila sa svojimi sólovými vystúpeniami v rôznych žánroch vrátane popu, jazzu a slovenskej klasickej hudby. Kombináciou svojich pedagogických a interpretačných skúseností zanechala Gabriela silnú stopu na javisku a v súčasnosti pracuje na albumových projektoch s Arminom. </p>
+                <a href="https://wa.me/+421918788255" target="_blank" id="btnn"> more iformation</a>
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="image">
+            <img src="images/yojo.jpg" alt="">
+             
+            </div>
+            <div class="content searchable ">
+                <a href="#" class="title"> JOZEF KMEŤO</a>
+                <span>  03 agust 2024 / GITARISTA </span>
+                <p> *JOZEF KMEŤO; Jeho záujem o hudbu sa začal prejavovať už v ranom veku a na gitare začal hrať už v 13 rokoch. Po absolvovaní Štátneho konzervatória Bratislavskej univerzity Josef účinkoval v rôznych kapelách. Špecializuje sa na rock, blues a jazz, Josef vystupoval v rôznych mestách po celom Slovensku a podieľal sa na nahrávaní mnohých albumov. V súčasnosti pokračuje v sólových projektoch a navštevuje hodiny hry na gitare. </p>
+
+          <a href="https://wa.me/+421905256635" target="_blank"  id="btnn"> more iformation </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--menu start-->
+
+<section class="menu" id="menu">
+
+
+    <button class="arrow left" onclick="scrollGallery(-1)">&#10094;</button>
+    <div class="video-container" id="videoGallery">
+        <div class="video-item">
+            <video src="video1.mp4" controls></video>
+            <h3>Video 1 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+        <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+         <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+         <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+         <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+         <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+         <div class="video-item">
+            <video src="images/arminvideo.mp4" controls></video>
+            <h3>Video 2 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+        <div class="video-item">
+            <video src="video3.mp4" controls></video>
+            <h3>Video 3 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+        <div class="video-item">
+            <video src="video4.mp4" controls></video>
+            <h3>Video 4 Başlık</h3>
+            <p>Bu video hakkında kısa bir açıklama metni.</p>
+        </div>
+    </div>
+    <button class="arrow right" onclick="scrollGallery(1)">&#10095;</button>
+
+
+<script>
+function scrollGallery(direction) {
+    const container = document.getElementById('videoGallery');
+    const scrollAmount = 620; // her tıklamada kayma miktarı
+    container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+}
+</script>
+
+
+
+</section>
+
+
+
+<!-- review staart-->
+
+<section class="review" id="recenzie">
+
+  <h1 class="heading">RECENZIE</h1>
+
+  <div class="review-wrapper">
+    <button class="arrowp  left">&#10094;</button>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="images/logon.taniyy.png" alt="" class="quote">
+        <P> 16.07.25 / 20:30 </P>
+        <p>Mali sme skvelý čas so skvelým tímom. Dúfame, že sa čoskoro uvidíme. Ďakujeme, Armin.: </p>
+        <h3>Marek HAMŞİK </h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      
+      <!-- diğer box'lar buraya -->
+    </div>
+
+    <button class="arrowp right">&#10095;</button>
+  </div>
+  <script>
+const boxContainer = document.querySelector('.review .box-container');
+const leftBtn = document.querySelector('.arrowp.left');
+const rightBtn = document.querySelector('.arrowp.right');
+
+leftBtn.addEventListener('click', () => {
+  boxContainer.scrollBy({ left: -300, behavior: 'smooth' });
+});
+
+rightBtn.addEventListener('click', () => {
+  boxContainer.scrollBy({ left: 300, behavior: 'smooth' });
+});
+</script>
+
+
+</section>
+
+
+<!-- contact start-->
+ <section class="contact" id="kontakt">
+
+
+
+  <h1 class="heading"> KONTAKTUJTE <span> NÁS </span></h1>
+
+  <div class="row">
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84680.3157463405!2d18.31293887104546!3d48.451543298174016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b2dd8bed0ddd7%3A0x400f7d1c696dbb0!2zOTUxIDkzIFRvcG_EvsSNaWFua3k!5e0!3m2!1str!2ssk!4v1748468078802!5m2!1str!2ssk" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <form action="">
+      <h3> 7 / 24 KONTAKTUJTE NÁS </h3>
+
+      <div class="inputbox">
+        <span class="fas fa-user"></span>
+        <input type="text" placeholder="name">
+      </div>
+
+      <div class="inputbox">
+        <span class="fas fa-user"></span>
+        <input type="text" placeholder="surname">
+      </div>
+
+      <div class="inputbox">
+        <span class="fas fa-envelope"></span>
+        <input type="email" placeholder="email">
+      </div>
+
+      <div class="inputbox">
+        <span class="fas fa-phone"></span>
+        <input type="number" placeholder="number">
+      </div>
+
+      <!-- ✅ YENİ TEXTAREA EKLENDİ -->
+      <div class="inputbox">
+        <span class="fas fa-comment"></span>
+        <textarea id="message" placeholder="Sem zadajte svoju správu..." rows="5" style="width:100%; padding:2rem; font-size:2rem; color:#fff; background:none; border:none;"></textarea>
+      </div>
+
+      <!-- ✅ SEND TO GMAIL BUTONU EKLENDİ -->
+      <a href="#" id="sendEmail" class="btn">ODOSLAŤ DO GMAILU</a>
+
+      <input type="reset" value="VYMAZAŤ VŠETKO" id="btn" class="btn">
+
+    </form>
+
+  </div>
+</section>
+
+<!-- ✅ JAVASCRIPT EN ALTA EKLENDİ -->
+<script>
+  document.getElementById("sendEmail").addEventListener("click", function (e) {
+    e.preventDefault();
+    const message = document.getElementById("message").value;
+    const mailtoLink = `mailto:azatbayir88@gmail.com?subject=Message from Contact Page&body=${encodeURIComponent(message)}`;
+    window.location.href = mailtoLink;
+  });
+</script>
+
+ </section>
+
+ <!--blogs start-->
+
+<section class="blogs" id="blogy">
+  
+  <h1 class="heading"><span> NAŠE</span> BLOGY</h1>
+
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="images/rudolf.kemen.jpg" alt="Blog Image 1">
+      </div>
+      <div class="content">
+    <h3 class="title"> Myšlienky Rudolfa Kemena </h3>
+        <span>26 agust 25</span>
+        <p>Myšlienky tímu o budúcnosti, projektoch a ďalších veciach ČOSKORO...</p>
+        <a href="https://www.facebook.com/share/1ATMyqwZZ2/?mibextid=wwXIfr" target="_blank" class="btn">získať informácie</a>
+       
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="images/F (6).jpg" alt="Blog Image 2">
+      </div>
+      <div class="content">
+        <a href="#" class="title">Their First Meeting</a>
+        <span>03 Aug 2024</span>
+        <p>A legendary moment — the first time Azad and Hanka met each other during a concert rehearsal.</p>
+        <a href="#" class="btn">More Information</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="images/F (5).jpg" alt="Blog Image 3">
+      </div>
+      <div class="content">
+        <a href="#" class="title">Birthday Concert</a>
+        <span>21 May 1988</span>
+        <p>A special birthday concert full of emotions and unforgettable melodies.</p>
+        <a href="#" class="btn">More Information</a>
+      </div>
+    </div>
+  </div>
+
+
+
+    </section>
+
+
+<section class="galery" id="galeria">
+   <h1 class="heading"><span>NAŠA</span>   GALÉRIA</h1>
+   <div class="gallery-container">
+    <div class="gallery-item" data-img="images/foto1.jpg" style="background-image: url(images/foto1.JPG);"></div>
+    <div class="gallery-item" data-img="images/foto2.jpg" style="background-image: url(images/foto2.JPG);"></div>
+    <div class="gallery-item" data-img="images/fotograf3.jpg" style="background-image: url(images/fotograf3.jpg);"></div>
+    <div class="gallery-item"  data-img="images/fotograf4.jpg" style="background-image: url(images/fotograf4.jpg);"></div>
+    <div class="gallery-item" data-img="images/fotograf5.jpg" style="background-image: url(images/fotograf5.jpg);"></div>
+    <div class="gallery-item" data-img="images/fotograf6.jpg" style="background-image: url(images/fotograf6.jpg);"></div>
+    <div class="gallery-item"  style="background-image: url(images/fotograf7.jpg);"></div>
+    <div class="gallery-item"  style="background-image: url(images/foto9.JPG);"></div>
+  </div>
+
+  <!-- Lightbox --> 
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="closeBtn">&times;</span>
+    <span class="arrow left" id="prevBtn">&#10094;</span>
+    <img src="" alt="Büyük Görsel" id="lightbox-img">
+    <span class="arrow right" id="nextBtn">&#10095;</span>
+  </div> 
+
+</section>
+
+
+<!--footer start-->
+<section class="footer">
+
+  <div class="foot">
+ <a href="https://www.facebook.com/share/1ATMyqwZZ2/?mibextid=wwXIfr" class="fab fa-facebook-f"></a>
+ <a href="https://www.instagram.com/armin.hs2025?igsh=dWtyN2FlcjVzd3Fs&utm_source=qr" class="fab fa-instagram"></a>
+ <a href="https://www.tiktok.com/@armin.hudobn.skup?_t=ZN-8yVtANRPchC&_r=1" class="fab fa-tiktok"></a>
+ <a href="#" class="fab fa-youtube"></a>
+ <a href="https://wa.me/905050872914" target="_blank" class="fab fa-linkedin"></a>
+  
+
+
+  </div>
+  <div class="links">
+      <a href="#domov"> DOMOV</a>
+          <a href="#onas"> O NÁS</a> 
+        <a href="#menu"> MENU</a>
+       <!-- <a href="#products"> PRODUCTS</a>-->
+        <a href="#recenzie"> RECENZIE</a>
+        <a href="#kontakt"> KONTAKT</a>
+        <a href="#blogy"> BLOGY</a>
+        <a href="#galeria"> GALÉRIA</a>
+  </div>
+
+
+</section>
+
+  <script>
+    const items = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('closeBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+
+    let currentIndex = 0;
+    let imageSources = [];
+
+    items.forEach((item, index) => {
+      imageSources.push(item.getAttribute('data-img'));
+      item.addEventListener('click', () => {
+        currentIndex = index;
+        showImage();
+        lightbox.style.display = 'flex';
+      });
+    });
+
+    function showImage() {
+  lightboxImg.style.opacity = 0;
+  lightboxImg.src = imageSources[currentIndex];
+  lightboxImg.onload = () => {
+    lightboxImg.style.opacity = 1;
+  };
+}
+
+    function showImage() {
+  lightboxImg.style.opacity = 0; // görünmez yap
+  lightboxImg.src = imageSources[currentIndex];
+
+  lightboxImg.onload = () => {
+    lightboxImg.style.opacity = 1; // yüklenince görünür yap
+  };
+
+  lightboxImg.onerror = () => {
+    lightboxImg.alt = "Resim yüklenemedi.";
+    alert("Bu resim yüklenemedi.");
+  };
+}
+
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % imageSources.length;
+      showImage();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + imageSources.length) % imageSources.length;
+      showImage();
+    });
+
+    closeBtn.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (lightbox.style.display === 'flex') {
+        if (e.key === 'ArrowRight') nextBtn.click();
+        else if (e.key === 'ArrowLeft') prevBtn.click();
+        else if (e.key === 'Escape') closeBtn.click();
+      }
+    });
+  </script>
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
